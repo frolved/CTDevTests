@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="1" >
+    <test name="FirstTest" >
+        <!--<parameter name="email" value="demo1@demo.com"/>-->
+        <!--<parameter name="password" value="test"/>-->
+        <classes>
+            <class name="zipHub.FirstTest" />
+        </classes>
+    </test>
+</suite>
